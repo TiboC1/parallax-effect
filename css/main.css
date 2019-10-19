@@ -1,0 +1,52 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+}
+
+header,
+#img2,
+#img3 {
+  background-position: center;
+  position: relative;
+  opacity: 0.8;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header {
+  background-image: url(/img/nature-forest-trees-fog.jpg);
+  min-height: 100vh;
+  text-align: center;
+  width: 100%;
+}
+
+header .ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+#img2 {
+  background-image: url(/img/pexels-photo-1367192.jpg);
+  min-height: 400px;
+}
+
+#img3 {
+  background-image: url(/img/pexels-photo-1659683.jpg);
+  min-height: 400px;
+}
+
+section {
+  min-height: 200px;
+  padding: 15px;
+  background-color: darkgray;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
